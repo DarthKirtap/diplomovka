@@ -258,10 +258,10 @@ public class NicoAgent : Agent
         minAngle = Mathf.Min(minAngle, angle);
         minDistance = Mathf.Min(minDistance, new_dist);
 
-        textField.GetComponent<TextMeshProUGUI>().text = "Average angle: " + averageAngle.ToString("#.00") +
-            "\r\nMin angle: " + minAngle.ToString("#.00") +
-            "\r\n\r\nAverage distance: " + averageDistance.ToString("#.00") +
-            "\r\nMin distance: " + minDistance.ToString("#.00");
+        textField.GetComponent<TextMeshProUGUI>().text = "Average angle: " + averageAngle.ToString("#.000") +
+            "\r\nMin angle: " + minAngle.ToString("#.000") +
+            "\r\n\r\nAverage distance: " + averageDistance.ToString("#.000") +
+            "\r\nMin distance: " + minDistance.ToString("#.000");
 
         AddReward( GetReward(new_dist) );
     }

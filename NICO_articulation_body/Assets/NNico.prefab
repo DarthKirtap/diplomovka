@@ -1575,7 +1575,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: e5ce9557c4dcff94b9a439a2fef96a30, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 52dad56bad8acd14fbd67e5ef762ebea, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: NICO
@@ -1599,10 +1599,10 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 5000
-  targetedSide: 0
+  targetedSide: 4
   targetCube: {fileID: 1296208392090387199}
   randomTarget: 0
-  reset: 1
+  reset: 0
   targetFar: {fileID: 9148176720613751855}
   baseBlock: {fileID: 7297582656059987982}
   sides:
@@ -1979,7 +1979,7 @@ Transform:
   - {fileID: 1374219382578708357}
   - {fileID: 8855980617233663027}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3360385814210863284
 GameObject:
@@ -6206,7 +6206,7 @@ ArticulationBody:
   m_Enabled: 0
   serializedVersion: 5
   m_Mass: 100
-  m_ParentAnchorPosition: {x: -0.00010237338, y: -0.000025713118, z: 0.0018638587}
+  m_ParentAnchorPosition: {x: -0.00010237338, y: -0.000047344416, z: 0.0018638587}
   m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071069, w: 0.7071069}
   m_AnchorPosition: {x: -0.00037101144, y: -0.000000004572216, z: -0.0009171985}
   m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
